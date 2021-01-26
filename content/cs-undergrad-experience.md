@@ -7,8 +7,8 @@ description: "My best in-class and out-of-class experience as a CS student"
 
 As I look back to my past couple of years as a CS undergraduate, a couple of questions found their way into my head:
 
-* Could something I categorized as *easy* be something that I define as a *great* experience? 
-* What outside-of-the-classroom experiences did I most enjoy?
+* How do I define an experience as *great*?
+* What did I learn from my best experience outside of the classroom?
 
 
 The first question got me thinking about my **growth**. Maybe I didn't enjoy some classes that much because they were hard, but I certainly learned a lot from them. I try to think about my first programming class in 2017 as a freshman in college. I was a lost, confused girl sitting in a room full of males. Looking back, most of the things I learned in this class became second nature to me today. I didn't have to think twice about why I need getters and setters or create the main method to run my Java program. But I don't think my first programming class was enjoyable or great in particular. It was a confusing class, and I struggled with understanding the concepts. I thought about maybe changing my major to Math.
