@@ -20,7 +20,7 @@ function PostTemplate({ content, data }) {
 	);
 };
 
-PostTemplate.getInitialProps = async (context) => {
+PostTemplate.getStaticProps = async(context) => {
 	const { slug } = context.query;
 
 	const content = await import(`../../content/${slug}.md`);
@@ -30,6 +30,19 @@ PostTemplate.getInitialProps = async (context) => {
 	return { ...data };
 
 	return { slug };
+}
+
+PostTemplate.getStaticPaths = async() => {
+	const fs = require("fs");
+	const files = fs.readdirSync(`${process.cwd()}/content`, "utf-8");
+
+	const blogs = files.filter((fn) => fn.endsWith(".md"));
+
+	const paths = blogs.map((blog) => {
+		params: { slug: blog.slug }
+	})
+
+	return { paths, fallback: false }
 }
 
 export default PostTemplate;
