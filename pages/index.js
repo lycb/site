@@ -3,20 +3,15 @@ import ReactMarkdown from 'react-markdown';
 import matter from 'gray-matter';
 import Link from "next/link";
 
+import NavBarComponent from '../components/navBar.js';
+
 function Home({ content, data }) {
 	const frontmatter = data;
 
 	return (
 		<>
 			<p className="pages-title">Jenny Ly</p>
-			<div className="nav">
-				<Link href="/" className="nav-link">
-					<a className="nav-link">About</a>
-				</Link>
-				<Link href="/posts" className="nav-link">
-					<a className="nav-link">Blog</a>
-				</Link>
-			</div>
+			<NavBarComponent />
 			<ReactMarkdown source={content} />
 		</>
 	);

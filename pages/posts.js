@@ -1,6 +1,7 @@
 import React from 'react';
 import matter from "gray-matter";
 import Link from "next/link";
+import NavBarComponent from '../components/navBar.js';
 
 function Blog({ data, title, description }) {
 	const RealData = data.map((blog) => matter(blog));
@@ -11,14 +12,7 @@ function Blog({ data, title, description }) {
 	return (
 		<>
 			<p className="pages-title">Posts</p>
-			<div className="nav">
-				<Link href="/" className="nav-link">
-					<a className="nav-link">About</a>
-				</Link>
-				<Link href="/posts" className="nav-link">
-					<a className="nav-link">Blog</a>
-				</Link>
-			</div>
+			<NavBarComponent />
 			<div>
 				<ul className="posts-list">
 					{ListItems.map((blog, i) => (
