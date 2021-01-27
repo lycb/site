@@ -1,6 +1,7 @@
 import React from 'react';
 import matter from "gray-matter";
 import Link from "next/link";
+import Head from 'next/head';
 
 function Blog({ data, title, description }) {
 	const RealData = data.map((blog) => matter(blog));
@@ -10,7 +11,11 @@ function Blog({ data, title, description }) {
 
 	return (
 		<>
-			<p className="pages-title">Posts</p>
+			<Head>
+		        <title>Blog</title>
+		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	      	</Head>
+			<p className="pages-title">Blog</p>
 			<div className="nav">
 				<Link href="/" className="nav-link">
 					<a className="nav-link">About</a>

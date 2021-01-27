@@ -3,12 +3,17 @@ import ReactMarkdown from 'react-markdown';
 import matter from 'gray-matter';
 import Link from "next/link";
 import Image from 'next/image';
+import Head from 'next/head';
 
 function Home({ content, data }) {
 	const frontmatter = data;
 
 	return (
 		<>
+			<Head>
+		        <title>Jenny Ly</title>
+		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	      	</Head>
 			<p className="pages-title">Jenny Ly</p>
 			<div className="nav">
 				<Link href="/" className="nav-link">
