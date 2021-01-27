@@ -2,6 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import matter from 'gray-matter';
 import Link from "next/link";
+import Image from 'next/image';
 
 function Home({ content, data }) {
 	const frontmatter = data;
@@ -18,6 +19,9 @@ function Home({ content, data }) {
 				</Link>
 			</div>
 			<ReactMarkdown source={content} />
+			<Link href="https://github.com/lycb">
+				<Image src="/assets/github.png" width={20} height={20} quality={100}/>
+			</Link>
 		</>
 	);
 };
