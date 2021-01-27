@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "nan": "^2.14.2",
     "next": "^10.0.5",
     "raw-loader": "^4.0.2",
     "react": "^17.0.1",
