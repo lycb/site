@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,800;1,300;1,800&display=swap');
 
 body {
 	font-family: 'Work Sans', sans-serif;
@@ -42,4 +42,17 @@ body {
 .logo {
 	width: 20px;
 	height: 20px;
+}
+
+.tiles-wrapper {
+	background-color: red;
+}
+
+.tile {
+	background-color: green;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
