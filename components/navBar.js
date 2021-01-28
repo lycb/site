@@ -11,6 +11,9 @@ function NavBarComponent() {
         <Link href="/posts" className="nav-link">
           <a className="nav-link">Blog</a>
         </Link>
+        <Link href="/projects" className="nav-link">
+          <a className="nav-link">Projects</a>
+        </Link>
       </div>
     </>
   );
