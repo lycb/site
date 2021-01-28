@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import matter from 'gray-matter';
-import Link from "next/link";
+import Link from 'next/link';
+import Head from 'next/head';
 
 function PostTemplate({ content, data }) {
 	const frontmatter = data;
 
 	return (
 		<>
+			<Head>
+		        <title>{frontmatter.title}</title>
+		        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	      	</Head>
 			<p className="pages-title">{frontmatter.title}</p>
 			<div className="nav">
 				<Link href="/posts"  className="nav-link">
