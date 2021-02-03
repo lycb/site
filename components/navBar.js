@@ -6,7 +6,7 @@ function NavBarComponent() {
     <>
       <div className="nav">
         <Link href="/" className="nav-link">
-          <a className="nav-link">About</a>
+          <a className="nav-link">Home</a>
         </Link>
         <Link href="/posts" className="nav-link">
           <a className="nav-link">Blog</a>

@@ -12,18 +12,31 @@ function Home({ content, data }) {
 	return (
 		<>
 			<Head>
-        <title>Jenny Ly</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    	</Head>
-			<p className="pages-title">Jenny Ly</p>
-			<NavBarComponent />
-			<ReactMarkdown source={content} />
-			<a href="https://github.com/lycb">
-				<img src="/assets/github.png" className="logo"/>
-			</a>
-			<a href="https://www.linkedin.com/in/jenny-chau-ly/">
-				<img src="/assets/linkedin.png" className="logo"/>
-			</a>
+		    <title>Jenny Ly</title>
+		    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
+			<div className="home-wrapper">
+				<p className="home-title">Jenny Ly</p>
+				<div className="nav-home">
+			        <Link href="/" className="nav-link">
+			          <a className="nav-link">Home</a>
+			        </Link>
+			        <Link href="/posts" className="nav-link">
+			          <a className="nav-link">Blog</a>
+			        </Link>
+			        <Link href="/projects" className="nav-link">
+			          <a className="nav-link">Projects</a>
+			        </Link>
+			      </div>
+			    <div className="logo-wrapper">
+					<a href="https://github.com/lycb">
+						<img src="/assets/github.png" className="logo"/>
+					</a>
+					<a href="https://www.linkedin.com/in/jenny-chau-ly/">
+						<img src="/assets/linkedin.png" className="logo"/>
+					</a>
+				</div>
+			</div>
 		</>
 	);
 };

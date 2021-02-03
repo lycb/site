@@ -1,15 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,800;1,300;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Work+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 body {
 	font-family: 'Work Sans', sans-serif;
 	padding: 20px 20px 60px;
 	max-width: 680px;
 	margin: 0 auto;
+	font-weight: 300;
 }
 
 a {
 	text-decoration: none;
 	color: #777;
+}
+
+.home-wrapper {
+	top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.home-title {
+	font-size: 12vh;
+	font-weight: 400;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Nothing You Could Do', cursive;
 }
 
 .pages-title {
@@ -39,6 +56,12 @@ a {
 	margin-bottom: 20px;
 }
 
+.nav-home {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
 .nav-link {
 	padding-right: 1em;
 	text-decoration: none;
@@ -49,6 +72,10 @@ a {
 	width: 20px;
 	height: 20px;
 	margin-right: 20px;
+}
+
+.logo-wrapper {
+	text-align: center;
 }
 
 .project-wrapper {
