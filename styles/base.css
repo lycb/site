@@ -22,7 +22,7 @@ a {
 }
 
 .home-title {
-	font-size: 12vh;
+	font-size: 10vh;
 	font-weight: 400;
 	text-align: center;
 	margin: 10px;
@@ -65,7 +65,11 @@ a {
 .nav-link {
 	padding-right: 1em;
 	text-decoration: none;
-	color: #3f6eba;
+	/*color: #3f6eba;*/
+}
+
+.nav-link:hover {
+	color: #ccc;
 }
 
 .logo {
