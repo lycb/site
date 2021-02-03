@@ -7,6 +7,11 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	text-decoration: none;
+	color: #777;
+}
+
 .pages-title {
 	font-size: 30px;
 }
@@ -26,6 +31,7 @@ body {
 
 .post-date {
 	font-style: italic;
+	font-size: 12px;
 }
 
 .nav {
@@ -55,12 +61,13 @@ body {
 
 .tile {
 	display: flex;
-	background-color: #c4edff;
+	background-color: white;
 	padding: 10px;
 	margin: 10px auto;
 	border-radius: 20px;
 	max-width: 80%;
 	text-align: center;
+	border: 0.16em solid #dbf4ff;
 }
 
 .tile:hover {
@@ -73,7 +80,23 @@ body {
 	font-style: italic;
 }
 
-a {
+.tile-links {
 	text-decoration: none;
 	color: black;
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+blockquote::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #dadada;
+  border-radius: 2px / 4px;
 }
