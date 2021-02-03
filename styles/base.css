@@ -31,6 +31,7 @@ body {
 .nav {
 	text-align: right;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .nav-link {
@@ -53,12 +54,16 @@ body {
 
 .tile {
 	display: flex;
-	background-color: #dbf4ff;
+	background-color: #c4edff;
 	padding: 10px;
 	margin: 10px auto;
 	border-radius: 20px;
-	max-width: 70%;
+	max-width: 80%;
 	text-align: center;
+}
+
+.tile:hover {
+	background-color: #dbf4ff;
 }
 
 .links {
