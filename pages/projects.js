@@ -16,7 +16,7 @@ function Projects() {
         <div className="tile">
           <a href="https://ly86.chaulyjenny.com/">
             <p className="posts-title">LY86-64 (2020-<i>present</i>)</p>
-            <img src="/assets/ly86.gif" style={{width: "100%"}}/>
+            <img src="/assets/ly86.jpg" style={{width: "100%"}}/>
             <p>A Y86-64 browser-based simulator that focuses on the visualization 
             aspect of the control logic and signals.</p>
           </a>
@@ -33,7 +33,7 @@ function Projects() {
         <div className="tile">
            <a href="https://github.com/lycb/Together">
             <p className="posts-title">Together; (2020)</p>
-            <img src="/assets/together.gif" style={{width: "50%"}}/>
+            <img src="/assets/together.png" style={{width: "50%"}}/>
             <p>A mobile app for students with mental health issues to connect with their community.
             This project was built overnight at <a href="https://pearlhacks.com/" className="links">PearlHacks</a> in 2020.</p>
           </a>
