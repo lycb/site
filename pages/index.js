@@ -21,6 +21,9 @@ function Home({ content, data }) {
 			<a href="https://github.com/lycb">
 				<img src="/assets/github.png" className="logo"/>
 			</a>
+			<a href="https://www.linkedin.com/in/jenny-chau-ly/">
+				<img src="/assets/linkedin.png" className="logo"/>
+			</a>
 		</>
 	);
 };
