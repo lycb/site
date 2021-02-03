@@ -8,12 +8,12 @@ body {
 }
 
 .pages-title {
-	font-weight: 700;
 	font-size: 30px;
 }
 
 .posts-title {
 	font-size: 20px;
+	color: #3f6eba;
 }
 
 .posts-title:hover {
@@ -44,12 +44,27 @@ body {
 	height: 20px;
 }
 
-.tiles-wrapper {
-	background-color: red;
+.project-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
 .tile {
-	background-color: green;
+	display: flex;
+	background-color: #dbf4ff;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 20px;
+	max-width: 70%;
+	text-align: center;
+}
+
+.links {
+	text-decoration: none;
+	color: #3e5bef;
+	font-style: italic;
 }
 
 a {

@@ -23,7 +23,7 @@ function Blog({ data, title, description }) {
           {ListItems.map((blog, i) => (
             <li key={i}>
               <Link href={`/posts/${blog.slug}`}>
-                <h1 className="posts-title">{blog.title}</h1>
+                <p className="posts-title">{blog.title}</p>
               </Link>
               <p className="post-date">{blog.date}</p>
               <p>{blog.description}</p>
