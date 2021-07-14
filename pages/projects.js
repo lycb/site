@@ -24,7 +24,7 @@ function Projects() {
 
         <div className="tile">
           <a href="http://cs.appstate.edu/apphack/" className="tile-links">
-            <p className="posts-title">AppHack Website <span style={{fontWeight: "300"}}>(2019-<i>present</i>)</span></p>
+            <p className="posts-title">AppHack Website <span style={{fontWeight: "300"}}>(2019-2021)</span></p>
               <img src="/assets/apphack.png" style={{width: "100%"}}/>
             <p>A website for AppHack, a student-run hackathon hosted at Appalachian State University.</p>
           </a>
