@@ -66,7 +66,6 @@ a {
 .nav-link {
 	padding-right: 1em;
 	text-decoration: none;
-	/*color: #3f6eba;*/
 }
 
 .nav-link:hover {
@@ -113,6 +112,19 @@ a {
 .tile-links {
 	text-decoration: none;
 	color: black;
+}
+
+.resume-block-wrapper {
+	margin: 10px;
+}
+
+.resume-description {
+	padding-bottom: 4px;
+}
+
+.resume-description-ul {
+	display: inline-block;
+	margin-top: 0;
 }
 
 blockquote {

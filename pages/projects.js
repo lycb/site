@@ -11,7 +11,7 @@ function Projects() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <p className="pages-title">Projects</p>
-      <NavBarComponent />
+      <NavBarComponent style="nav"/>
       <div class="project-wrapper">
         <div className="tile">
           <a href="https://ly86.chaulyjenny.com/" className="tile-links">

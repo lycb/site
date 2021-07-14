@@ -1,12 +1,15 @@
 import React from 'react';
 import Link from "next/link";
 
-function NavBarComponent() {
+function NavBarComponent(props) {
   return (
     <>
-      <div className="nav">
+      <div className={props.style}>
         <Link href="/" className="nav-link">
           <a className="nav-link">Home</a>
+        </Link>
+        <Link href="/resume" className="nav-link">
+          <a className="nav-link">Resume</a>
         </Link>
         <Link href="/projects" className="nav-link">
           <a className="nav-link">Projects</a>

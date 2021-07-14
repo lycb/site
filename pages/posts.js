@@ -17,7 +17,7 @@ function Blog({ data, title, description }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <p className="pages-title">Posts</p>
-      <NavBarComponent />
+      <NavBarComponent style="nav"/>
       <div>
         <ul className="posts-list">
           {ListItems.map((blog, i) => (

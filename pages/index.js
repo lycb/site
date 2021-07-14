@@ -17,17 +17,7 @@ function Home({ content, data }) {
 			</Head>
 			<div className="home-wrapper">
 				<p className="home-title">Jenny Ly</p>
-				<div className="nav-home">
-			        <Link href="/" className="nav-link">
-			          <a className="nav-link">Home</a>
-			        </Link>
-			        <Link href="/projects" className="nav-link">
-			          <a className="nav-link">Projects</a>
-			        </Link>
-			        <Link href="/posts" className="nav-link">
-			          <a className="nav-link">Blog</a>
-			        </Link>
-			      </div>
+					<NavBarComponent style="nav-home"/>
 			    <div className="logo-wrapper">
 					<a href="https://github.com/lycb">
 						<img src="/assets/github.png" className="logo"/>
